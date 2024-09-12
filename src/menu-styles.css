@@ -1,0 +1,65 @@
+.menuMainStyles {
+    background-color: #102b3f;
+    color: darkgoldenrod;
+}
+
+.menuContentStyles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.menuDiv {
+    width: 100%;
+}
+
+.menuContentStyles .menus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.menuContentStyles section {
+    width: 100%;
+}
+
+.menuContentStyles h2 {
+    font-variant: small-caps;
+    padding: 0.75em 0em;
+    text-decoration: underline;
+}
+
+.menuContentStyles .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.menuContentStyles .item-and-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuContentStyles .item {
+    font-weight: 800;
+
+}
+
+.menuContentStyles .description {
+    margin-right: auto;
+    font-style: italic;
+
+}
+
+
+/*** tablets ***/
+@media only screen and (min-width: 768px) {
+
+    .menuContentStyles section {
+        width: 27%;
+    }
+}

@@ -1,0 +1,47 @@
+.aboutMainStyles {
+    background-color: #252d29;
+    color: darkgoldenrod;
+}
+
+.aboutContentStyles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    
+}
+
+.aboutContentStyles > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutContentStyles h2 {
+    padding: 0.5em 0em;
+}
+
+.aboutContentStyles figure {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 0em;
+}
+
+.aboutContentStyles img {
+    width: 100%;
+}
+
+/***tablets***/
+@media only screen and (min-width: 768px) {
+    .aboutContentStyles div + div {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .aboutContentStyles figure {
+        width: 30%;
+    }
+}
