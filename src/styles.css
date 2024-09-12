@@ -48,7 +48,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 3.5em 0px;
+    padding: 3em 0px;
 }
 
 header {
@@ -86,7 +86,7 @@ header nav {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 55%;
+    width: 60%;
 }
 
 nav button {
@@ -129,10 +129,14 @@ footer .social-links p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9d8189;
+    background-color: #102b3f;
     border-radius: 50%;
     height: 2em;
     width: 2em;
+}
+
+footer .social-links p a {
+    color: darkgoldenrod;
 }
 
 
