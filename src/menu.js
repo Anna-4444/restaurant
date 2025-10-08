@@ -1,5 +1,3 @@
-import "./menu-styles.css";
-
 export function menuLoad () {
 
     const content = document.querySelector("#content");

@@ -1,4 +1,3 @@
-import "./about-styles.css";
 import spiceBowl from "./img/pexels-dapur-melodi.jpg";
 import dough from "./img/pexels-vanmalidate.jpg";
 import noodleBowl from "./img/pexels-valeriya.jpg";
@@ -21,14 +20,19 @@ export function aboutLoad () {
     //create three images in figure tags and add them to the imageDiv
     const image1 = document.createElement ("img");
     image1.src = spiceBowl;
+    image1.alt = "spice bowl";
     const figure1 = document.createElement ("figure");
     figure1.append(image1);
+
     const image2 = document.createElement ("img");
     image2.src = dough;
+    image2.alt = "dough";
     const figure2 = document.createElement ("figure");
     figure2.append(image2);
+
     const image3 = document.createElement ("img");
     image3.src = noodleBowl;
+    image3.alt = "noodle bowl";
     const figure3 = document.createElement ("figure");
     figure3.append(image3);
     imageDiv.append(figure1, figure2, figure3);

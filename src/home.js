@@ -1,5 +1,3 @@
-import "./home-styles.css";
-
 export function pageLoad () {
 
     const content = document.querySelector("#content");
